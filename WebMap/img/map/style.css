@@ -1,0 +1,15 @@
+.map-02-dian{
+	background: 点位-中-1.png no-repeat;
+	width:32px;
+	height:45px;
+	
+}
+.map-02-dian:hover{
+	background: 点位-中-2.png no-repeat;
+}
+.map-02-dian:visited{
+	background: 点位-中-3.png no-repeat;
+}
+.map-02-dian-cf{
+	background: 点位-中-3.png no-repeat;
+}

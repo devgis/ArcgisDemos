@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>地图服务</title>
+    @Styles.Render("http://192.168.0.69:8080/3.9/js/dojo/dijit/themes/claro/claro.css")
+    @Styles.Render("http://192.168.0.69:8080/3.9/js/esri/css/esri.css")
+    @Styles.Render("~/css/popup.css")
+    @Styles.Render("~/css/tablestyle.css")
+    @Styles.Render("~/css/my.css")
+    @Scripts.Render("http://192.168.0.69:8080/3.9/init.js")
+    @*@Scripts.Render("~/js/gishelper.js")*@
+    <script type="text/javascript">
+        var dojoConfig = {
+            parseOnLoad: true   // 解析加载
+        };
+        //aspobje = new AspproMap();
+        //aspobje.InitMap();
+        //ASPGISOBJECT.ShowMessage();
+    </script>
+</head>
+<body class="claro" style="font-size: 0.75em;">
+@RenderBody();
+</body>
+</html>

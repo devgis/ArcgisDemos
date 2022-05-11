@@ -1,0 +1,23 @@
+/* Change color of icons to match bar chart and selection symbol */
+.esriPopup.dark div.titleButton, 
+.esriPopup.dark div.titlePane .title,
+.esriPopup.dark div.actionsPane .action {
+  color: #A4CE67;
+}
+/* Additional customizations */
+.esriPopup.dark .esriPopupWrapper {
+  border: none;
+}
+.esriPopup .contentPane {
+  text-align: left;
+}
+.esriViewPopup .gallery {
+  margin: 0 auto;
+}
+.esriPopup .titleButton.maximize {
+      display:none;
+  }
+a.action.zoomTo
+{
+ display:none;
+}

@@ -1,0 +1,84 @@
+﻿html, body,#mapform, #map {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.dojoxColorPicker {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    -moz-box-shadow: 0 0 7px #888;
+    -webkit-box-shadow: 0 0 7px #888;
+    box-shadow: 0 0 7px #888;
+}
+.button{  
+    padding: 3px 8px;  
+    background: #eee;  
+    text-align: center;  
+    font-size: 12px;  
+    font-family: "微软雅黑";  
+}  
+.button:hover,.attr_ctrl:hover{  
+    background: #ccc;  
+    cursor: pointer;  
+}
+div.insetType {
+    color: #97F900;
+    font-size: 24px;
+    font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+    padding-left: 25px;
+}
+#HomeButton {
+    position: absolute;
+    top: 95px;
+    right: 20px;
+    z-index: 50;
+}
+#currentxy{
+    position: absolute;
+    bottom:0px;
+    left:5px;
+    z-index:99999;
+}
+g#map_graphics_layer{
+    display:none;
+}
+ul, ol {
+ list-style: none;
+}
+
+
+.map_ct{
+    z-index: 99;  
+    position: absolute;
+    top:20px;
+    right: 20px;
+    border: 1px solid #999;
+    border-right:0px;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    }
+
+.map_ct a{ display: inline-block; height:30px; width: 30px; border-right: 1px #999 solid; margin: 0; padding: 0;}
+.vip-uc-a{background:url(/img/tool/circle_1.png) no-repeat;}
+.vip-uc-a:hover{background:url(/img/tool/circle_2.png) no-repeat;}
+.vip-uc-b{background:url(/img/tool/rec_1.png) no-repeat;width:30px;}
+.vip-uc-b:hover{background:url(/img/tool/rec_2.png) no-repeat;}
+.vip-uc-c{background:url(/img/tool/polygon_1.png) no-repeat; }
+.vip-uc-c:hover{background:url(/img/tool/polygon_2.png) no-repeat;}
+.vip-uc-d{background:url(/img/tool/measure_1.png) no-repeat;}
+.vip-uc-d:hover{background:url(/img/tool/measure_2.png) no-repeat;}
+.vip-uc-e{background:url(/img/tool/print_1.png) no-repeat;}
+.vip-uc-e:hover{background:url(/img/tool/print_2.png) no-repeat;}
+.vip-uc-f{background:url(/img/tool/fullscreen_1.png) no-repeat; }
+.vip-uc-f:hover{background:url(/img/tool/fullscreen_2.png) no-repeat;}
+
+
+#map_zoom_slider{
+    bottom: 30px;
+    right: 30px;
+    border-radius:0;
+}

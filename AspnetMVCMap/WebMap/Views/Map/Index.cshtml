@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_MapLayout.cshtml";
+}
+<script src="~/js/jquery-1.8.3.js" type="text/javascript"></script>
+<script type="text/javascript">
+    @Html.Raw(ViewBag.MYJS)
+</script>
+<div id="map">
+    <div id="map_window" />
+    <div id="map_ctrl" class="map_ct">
+        <a class="vip-uc-a" id="circle"></a>
+        <a class="vip-uc-b" id="extent"></a>
+        <a class="vip-uc-c" id="handdraw"></a>
+        <a class="vip-uc-d" id="distance"></a>
+        <a class="vip-uc-e" id="print"></a>
+        <a class="vip-uc-f" id="fullscreen"></a>
+    </div>
+    <div id="HomeButton" />
+</div>
+<div id="currentxy" />
+<div id="bubble_tooltip">
+    <div class="bubble_top"><span></span></div>
+    <div class="bubble_middle"><span id="bubble_tooltip_content"></span></div>
+    <div class="bubble_bottom"></div>
+</div>
